@@ -1,0 +1,34 @@
+# ETL Pipeline - Fashion Product (Dicoding Submission)
+
+## Cara menjalankan skrip ETL pipeline
+
+python main.py
+
+
+## Cara menjalankan unit test pada folder tests
+
+python -m pytest tests
+
+
+## Cara menjalankan test coverage
+
+python -m pytest --cov=utils tests/
+
+Atau:
+
+coverage run -m pytest tests
+coverage report -m
+
+
+## Repository Data yang Digunakan
+
+- CSV (fashion_product.csv)
+- PostgreSQL (database: fashiondb)
+
+
+## Catatan Project
+
+- ETL Pipeline menggunakan modular code (utils/extract.py, utils/transform.py, utils/load.py)
+- Data disimpan ke CSV dan PostgreSQL
+- Unit testing menggunakan pytest
+- Coverage test menggunakan pytest-cov
