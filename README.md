@@ -142,15 +142,3 @@ File tersebut berisi data produk fashion yang telah dibersihkan dan diproses.
 * Automated ETL workflow
 * CSV export
 * Project testing
-
----
-
-## 👨‍💻 Author
-
-Developed by San Happy Ending
-
----
-
-## 🔗 Repository
-
-[project-fundaPemrosesanData Repository](https://github.com/sanhappyending/project-fundaPemrosesanData?utm_source=chatgpt.com)
